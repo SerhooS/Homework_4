@@ -17,3 +17,24 @@
 # - У сьомому рядку виведіть усі символи у зворотному порядку.
 # - У восьмому рядку виведіть усі символи рядка через один у зворотному порядку, починаючи з останнього.
 # - У дев'ятому рядку виведіть довжину цього рядка.
+
+# Task_1
+# try:
+#     while True:
+#         user_input = input("Введіть рядок: ")
+#
+#         letters_count = 0
+#         digits_count = 0
+#
+#         for i in user_input:
+#             if i.isalpha():
+#                 letters_count += 1
+#             elif i.isdigit():
+#                 digits_count += 1
+#
+#         print(f"Кількість літер: {letters_count}")
+#         print(f"Кількість цифр: {digits_count}")
+#
+# except Exception as e:
+#     print(f"Виникла помилка: {e}")
+
