@@ -57,3 +57,28 @@
 # except Exception as e:
 #     print(f"Виникла помилка: {e}")
 
+# Task_3
+
+
+# while True:
+#     try:
+#         input_string = input("Введіть рядок (або введіть 'exit' для завершення): ")
+#
+#         if input_string.lower() == 'exit':
+#             break
+#
+#         search_word = input("Введіть слово для пошуку: ")
+#
+#         while search_word not in input_string:
+#             print(f"Слово '{search_word}' не знайдено у введеному рядку.")
+#             search_word = input("Введіть інше слово для пошуку: ")
+#
+#         replace_word = input("Введіть слово для заміни: ")
+#
+#         modified_string = input_string.replace(search_word, replace_word)
+#
+#         print("Отриманий рядок після заміни:")
+#         print(modified_string)
+#
+#     except Exception as e:
+#         print(f"Виникла помилка: {e}")
