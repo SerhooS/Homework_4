@@ -38,3 +38,22 @@
 # except Exception as e:
 #     print(f"Виникла помилка: {e}")
 
+
+# Task_2
+
+# try:
+#     while True:
+#         user_string = input("Введіть рядок: ")
+#         user_symbol = input("Введіть символ: ")
+#
+#         symbols_count = 0
+#
+#         for i in user_string:
+#             if i == user_symbol:
+#                 symbols_count += 1
+#
+#         print(f"Кількість символів в рядку: {symbols_count}")
+#
+# except Exception as e:
+#     print(f"Виникла помилка: {e}")
+
